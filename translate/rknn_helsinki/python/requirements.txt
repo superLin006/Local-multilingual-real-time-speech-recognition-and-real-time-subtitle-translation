@@ -1,0 +1,14 @@
+# Python依赖列表
+
+# 必需依赖
+torch>=1.11.0
+transformers>=4.25.0
+onnx>=1.12.0
+numpy>=1.21.0
+
+# RKNN工具链 (需要根据平台选择对应版本)
+# rknn-toolkit2>=2.3.0  # 从官方渠道安装
+
+# 可选依赖
+sentencepiece>=0.1.97  # 用于某些tokenizer
+protobuf>=3.19.0       # ONNX依赖
