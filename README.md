@@ -20,11 +20,11 @@
 
 
 
-whisper-base-6性能测试报告
+whisper-base-6s性能测试报告
 
 whisper-base-6s 平均推理延时
 
-![alt text](image.png)
+![alt text](./picture/image.png)
 
 1 实时性：基本能满足实时ASR的要求，总体延时（等待+推理  从说话开始到输出整个ASR结果）可以做到1.5s左右
 
@@ -34,11 +34,11 @@ https://github.com/openai/whisper
 3 目前最佳配置：
 滑动窗口 6s  上下文4s  推理触发时间2s
 
-![alt text](企业微信截图_17612999011775.png)
+![alt text](./picture/image-3.png)
 
 4 运行内存占用 300M,较小也比较合理，可以正常运行
 
-![alt text](企业微信截图_17612999431973.png)
+![alt text](./picture/image-4.png)
 
 
 
@@ -48,21 +48,21 @@ Helsinki在RK3576上的性能测试报告
 
 en-zh(英译中)
 
-![alt text](企业微信截图_17623263786251.png)
+![alt text](./picture/image-5.png)
 
 zh-en(中译英)
 
-![alt text](企业微信截图_17623264701962.png)
+![alt text](./picture/image-6.png)
 
 2 准确性（benchMark）
 
 benchMark得分信息
 
-![alt text](image-1.png)
+![alt text](./picture/image-1.png)
 
 分数说明
  
- ![alt text](image-2.png)
+ ![alt text](./picture/image-2.png)
 
 
 3 内存占用：300M左右，满足运行要求
